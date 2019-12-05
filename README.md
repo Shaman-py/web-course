@@ -4,8 +4,6 @@ I'm Shaymanov Magomed, this is my first project.
 
 # magomed.shaymanov2015@yandex.ru
 
-# echo "# web-course" >> README.md
-
 # git init
 
 # git add README.md
