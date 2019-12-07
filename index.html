@@ -4,15 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>HomeWork</title>
   </head>
+
   <body>
-    <header>
+    <header class="head">
       <h1>Добро Пожаловать !</h1>
     </header>
-    <div>
+    <div class="description">
       Это тестовая страница чтобы проверить Вас на практике после задания на
-      курсе по Web от Hach DEV
+      курсе по Web
     </div>
     <h4>Это маркеровый список</h4>
     <ul>
@@ -20,7 +22,9 @@
       <li>Второй элемент</li>
       <li>Третий элемент</li>
     </ul>
-    <strong><span>Это нумерованный список</span></strong>
+    <strong>
+      <span>Это нумерованный список 'Я решил сделать его реверсивным'</span>
+    </strong>
     <ol type="1" start="3" reversed>
       <li>элемент</li>
       <li>элемент</li>
@@ -29,12 +33,69 @@
     <!--Я решил здесь использовать span вместо h3 -->
     <span>
       <b>
-        Попробуйте вставить картинку. Еcли что не получится спрашивайте в
-        группе.(Я тут решил использовать span в жирной форме тоже самое что и
-        заголовок 3 уровня :D)
+        Мне сказали вставить сюда картинку но я решил сделать слайдер и туда
+        вставить картинки
       </b>
     </span>
     <h3>Заголовок третьего уровня пусть будет тут</h3>
-    <img width="500px" src="./img/1_861530.jpg" alt="Ricardo_Milos" />
+
+    <div class="Ricardo">
+      <h1>This is Ricardo Milos</h1>
+    </div>
+
+    <!-- Добавил слайдер -->
+    <div class="slider-container">
+      <input
+        type="radio"
+        class="slide_img"
+        name="slide_img"
+        id="img_1"
+        checked
+      />
+      <input type="radio" class="slide_img" name="slide_img" id="img_2" />
+      <input type="radio" class="slide_img" name="slide_img" id="img_3" />
+
+      <div class="slides" id="first">
+        <img src="img/1.jpg" alt="" />
+      </div>
+
+      <div class="slides" id="second">
+        <img src="img/2.jpg" alt="" />
+      </div>
+
+      <div class="slides" id="third">
+        <img src="img/3.jpg" alt="" />
+      </div>
+
+      <div id="arrow_next">
+        <label for="img_1"
+          ><i class="fa fa-angle-right" aria-hidden="true"></i>
+        </label>
+        <label for="img_2"
+          ><i class="fa fa-angle-right" aria-hidden="true"></i>
+        </label>
+        <label for="img_3"
+          ><i class="fa fa-angle-right" aria-hidden="true"></i>
+        </label>
+      </div>
+
+      <div id="arrow_prev">
+        <label for="img_1"
+          ><i class="fa fa-angle-left" aria-hidden="true"></i>
+        </label>
+        <label for="img_2"
+          ><i class="fa fa-angle-left" aria-hidden="true"></i>
+        </label>
+        <label for="img_3"
+          ><i class="fa fa-angle-left" aria-hidden="true"></i>
+        </label>
+      </div>
+
+      <div class="switchers">
+        <label class="switcher" id="switcher1" for="img_1"></label>
+        <label class="switcher" id="switcher2" for="img_2"></label>
+        <label class="switcher" id="switcher3" for="img_3"></label>
+      </div>
+    </div>
   </body>
 </html>
