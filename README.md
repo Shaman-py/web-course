@@ -1,4 +1,4 @@
-I'm Shaymanov Magomed, this is my first project.
+I'm Magomed Shaymanov, this is my first project.
 
 # Magomed Shaymanov
 
