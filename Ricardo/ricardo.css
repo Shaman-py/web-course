@@ -1,34 +1,22 @@
-.head {
+h1 {
   text-align: center;
 }
-
-body {
-  background: black;
-}
-
-div,
-h1,
-b,
-ul,
-ol,
-h4,
-span,
 h3 {
-  color: white;
+  text-align: center;
+  margin: 2%;
+  padding: 1%;
 }
 
-.description {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.wallpapers {
-  text-align: center;
-}
-
-.Ricardo {
-  background-color: rgb(7, 1, 61);
-  margin-top: 5%;
-  text-align: center;
+#infa {
+  color: blanchedalmond;
+  background-color: black;
+  padding: 50px;
+  margin: 10px;
 }
 
 .slider-container {
@@ -87,7 +75,7 @@ h3 {
   text-align: center;
 }
 .switcher {
-  background: rgba(255, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.7);
   width: 15px;
   height: 15px;
   position: relative;
@@ -108,7 +96,7 @@ h3 {
 #img_1:checked ~ div #switcher1,
 #img_2:checked ~ div #switcher2,
 #img_3:checked ~ div #switcher3 {
-  background: #15066d;
+  background: #002270;
 }
 
 #img_1:checked ~ #arrow_next label:nth-child(2),
